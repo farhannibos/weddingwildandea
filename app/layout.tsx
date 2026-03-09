@@ -16,11 +16,11 @@ const greatVibes = Great_Vibes({
 })
 
 export const metadata: Metadata = {
-  title: 'Undangan Pernikahan - Shinta & Wildan',
+  title: 'Undangan Pernikahan - Wildan & Dea',
   description: 'Undangan Pernikahan - Yas Shinta Deana Putri & Wildan Ibnu Batutoh. Kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam acara pernikahan kami.',
   generator: 'v0.app',
   openGraph: {
-    title: 'Undangan Pernikahan - Shinta & Wildan',
+    title: 'Undangan Pernikahan - Wildan & Dea',
     description: 'Undangan Pernikahan - Yas Shinta Deana Putri & Wildan Ibnu Batutoh',
     url: 'https://undangan-nikah.vercel.app',
     siteName: 'Undangan Pernikahan',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://undangan-nikah.vercel.app/images/couple-hero.jpg',
         width: 1200,
         height: 630,
-        alt: 'Shinta & Wildan - Undangan Pernikahan',
+        alt: 'Wildan & Dea - Undangan Pernikahan',
       },
     ],
     locale: 'id_ID',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Undangan Pernikahan - Shinta & Wildan',
+    title: 'Undangan Pernikahan - Wildan & Dea',
     description: 'Undangan Pernikahan - Yas Shinta Deana Putri & Wildan Ibnu Batutoh',
     images: ['https://undangan-nikah.vercel.app/images/couple-hero.jpg'],
   },
