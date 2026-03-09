@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: 'Undangan Pernikahan',
     images: [
       {
-        url: 'https://undangan-nikah.vercel.app/images/couple-hero.jpg',
+        url: 'https://undangan-nikah.vercel.app/images/couple-hero-og.jpg',
         width: 1200,
         height: 630,
         alt: 'Wildan & Dea - Undangan Pernikahan',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Undangan Pernikahan - Wildan & Dea',
     description: 'Undangan Pernikahan - Yas Shinta Deana Putri & Wildan Ibnu Batutoh',
-    images: ['https://undangan-nikah.vercel.app/images/couple-hero.jpg'],
+    images: ['https://undangan-nikah.vercel.app/images/couple-hero-og.jpg'],
   },
   icons: {
     icon: [
