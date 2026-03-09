@@ -57,10 +57,11 @@ export function CoverSection({ onOpen, isOpen }: CoverSectionProps) {
           src="/images/gallery-2.jpg"
           alt="Pasangan pengantin"
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-brown-dark/60 via-brown-dark/40 to-brown-dark/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-brown-dark/30 via-brown-dark/20 to-brown-dark/40" />
       </div>
       
       <div className="absolute inset-0 batik-pattern opacity-30" />

@@ -110,6 +110,7 @@ export function ProfileSection() {
               src="/images/couple-hero.jpg"
               alt="Mempelai - Dea & Wildan"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover rounded-lg"
             />
           </Card3D>
