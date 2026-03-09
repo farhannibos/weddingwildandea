@@ -30,20 +30,31 @@ export function RSVPSection() {
     setIsSubmitting(true)
 
     try {
-      const url = new URL("https://script.google.com/macros/s/AKfycbzd7TA-wYcrx4LMawLpcN5oCxtD8RwkZzuO2eoPWFbE5bJzUI9Z_jb8pxvZjrhVCVQp/exec")
+      const scriptUrl = "https://script.google.com/macros/s/AKfycbyIO0sm7Tm3b_zN_fbDUr4gLByFX8WObueJ0zon59rCEHMo9bqKG05x397FMGaZ-nmU/exec"
       
-      url.searchParams.append("name", formData.name)
-      url.searchParams.append("guests", formData.guests)
-      url.searchParams.append("attendance", formData.attendance)
-      url.searchParams.append("message", formData.message)
+      // Build params
+      const params = new URLSearchParams()
+      params.append("name", formData.name)
+      params.append("guests", formData.guests)
+      params.append("attendance", formData.attendance)
+      params.append("message", formData.message)
 
-      const response = await fetch(url.toString(), {
+      // Test dengan redirect follow dan tanpa no-cors
+      const fullUrl = `${scriptUrl}?${params.toString()}`
+      console.log("Submitting to:", fullUrl)
+      
+      const response = await fetch(fullUrl, {
         method: "GET",
-        mode: "no-cors"
+        redirect: "follow"
       })
 
-      // Dengan no-cors, response akan selalu ok, jadi kita asumsikan berhasil
-      console.log("RSVP submitted successfully")
+      console.log("Response status:", response.status)
+      console.log("Response ok:", response.ok)
+      
+      const text = await response.text()
+      console.log("Response text:", text)
+
+      // Karena mode no-cors tidak bisa baca response, kita asumsikan berhasil jika tidak ada error
       setIsSubmitted(true)
       setFormData({ name: "", guests: "1", attendance: "hadir", message: "" })
       
