@@ -58,6 +58,16 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
+  other: {
+    preload: [
+      {
+        href: "/images/couple-hero.webp",
+      },
+      {
+        href: "/images/gallery-2.webp",
+      },
+    ],
+  },
 }
 
 export const viewport: Viewport = {

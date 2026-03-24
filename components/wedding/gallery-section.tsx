@@ -56,7 +56,10 @@ export function GallerySection() {
                       alt={image.alt}
                       fill
                       sizes="(max-width: 768px) 50vw, 33vw"
+                      loading="lazy"
+                      placeholder="blur"
                       className="object-cover transition-transform duration-500 group-hover:scale-110"
+                      blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQAAAgIDAAAAAAAAAAAAAAAAAAAAZAB/9oACAEBAAE/AA=="
                     />
                     <div className="absolute inset-0 bg-brown-dark/0 group-hover:bg-brown-dark/30 transition-colors duration-300 flex items-center justify-center">
                       <div className="w-12 h-12 bg-gold/80 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:scale-100 scale-50">
@@ -97,7 +100,10 @@ export function GallerySection() {
               alt="Gallery image"
               fill
               sizes="100vw"
+              priority
+              placeholder="blur"
               className="object-contain"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQAAAgIDAAAAAAAAAAAAAAAAAAAAZAB/9oACAEBAAE/AA=="
             />
           </div>
         </div>

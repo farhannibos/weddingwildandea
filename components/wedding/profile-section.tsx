@@ -111,7 +111,10 @@ export function ProfileSection() {
               alt="Mempelai - Dea & Wildan"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
+              priority
+              placeholder="blur"
               className="object-cover rounded-lg"
+              blurDataURL="data:image/web p;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA"
             />
           </Card3D>
         </AnimatedSection>
