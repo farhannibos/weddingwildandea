@@ -7,12 +7,12 @@ import { AnimatedSection, Card3D } from "./animated-section"
 import { useInView } from "@/hooks/use-in-view"
 
 const galleryImages = [
-  { src: "/images/gallery-1.jpg", alt: "Prewedding photo 1" },
-  { src: "/images/gallery-2.jpg", alt: "Prewedding photo 2" },
-  { src: "/images/gallery-3.jpg", alt: "Prewedding photo 3" },
-  { src: "/images/gallery-4.jpg", alt: "Prewedding photo 4" },
-  { src: "/images/couple-hero.jpg", alt: "Couple photo" },
-  { src: "/images/groom.jpg", alt: "Groom photo" },
+{ src: "/images/gallery-1.webp", alt: "Prewedding photo 1" },
+{ src: "/images/gallery-2.webp", alt: "Prewedding photo 2" },
+{ src: "/images/gallery-3.webp", alt: "Prewedding photo 3" },
+{ src: "/images/gallery-4.webp", alt: "Prewedding photo 4" },
+{ src: "/images/couple-hero.webp", alt: "Couple photo" },
+{ src: "/images/groom.webp", alt: "Groom photo" },
 ]
 
 export function GallerySection() {

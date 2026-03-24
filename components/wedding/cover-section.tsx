@@ -54,7 +54,7 @@ export function CoverSection({ onOpen, isOpen }: CoverSectionProps) {
     <section className="fixed inset-0 z-50 flex items-center justify-center">
       <div className="absolute inset-0">
         <Image
-          src="/images/gallery-2.jpg"
+          src="/images/gallery-2.webp"
           alt="Pasangan pengantin"
           fill
           sizes="100vw"

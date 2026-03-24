@@ -107,7 +107,7 @@ export function ProfileSection() {
             </svg>
             
             <Image
-              src="/images/couple-hero.jpg"
+              src="/images/couple-hero.webp"
               alt="Mempelai - Dea & Wildan"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
