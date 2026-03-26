@@ -16,20 +16,21 @@ const greatVibes = Great_Vibes({
 })
 
 export const metadata: Metadata = {
-  title: 'Undangan Pernikahan - Wildan & Dea',
-  description: 'Undangan Pernikahan - Yas Shinta Deana Putri & Wildan Ibnu Batutoh. Kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam acara pernikahan kami.',
-  generator: 'v0.app',
+  metadataBase: new URL('https://weddingwildea-2026.vercel.app'),
+  title: 'The Wedding Of Wildan & Dea',
+  description: 'Kami mengundang Anda untuk menghadiri acara pernikahan kami',
+  generator: 'Next.js',
   openGraph: {
-    title: 'Undangan Pernikahan - Wildan & Dea',
-    description: 'Undangan Pernikahan - Yas Shinta Deana Putri & Wildan Ibnu Batutoh',
-    url: 'https://undangan-nikah.vercel.app',
-    siteName: 'Undangan Pernikahan',
+    title: 'The Wedding Of Wildan & Dea',
+    description: 'Kami mengundang Anda untuk menghadiri acara pernikahan kami',
+    url: '/',
+    siteName: 'Wedding Wildan & Dea',
     images: [
       {
-        url: 'https://undangan-nikah.vercel.app/images/couple-hero-og.jpg',
+        url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Wildan & Dea - Undangan Pernikahan',
+        alt: 'Wildan & Dea Wedding Invitation',
       },
     ],
     locale: 'id_ID',
@@ -37,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Undangan Pernikahan - Wildan & Dea',
-    description: 'Undangan Pernikahan - Yas Shinta Deana Putri & Wildan Ibnu Batutoh',
-    images: ['https://undangan-nikah.vercel.app/images/couple-hero-og.jpg'],
+    title: 'The Wedding Of Wildan & Dea',
+    description: 'Kami mengundang Anda untuk menghadiri acara pernikahan kami',
+    images: ['/images/og-image.jpg'],
   },
   icons: {
     icon: [
@@ -60,12 +61,8 @@ export const metadata: Metadata = {
   },
   other: {
     preload: [
-      {
-        href: "/images/couple-hero.webp",
-      },
-      {
-        href: "/images/gallery-2.webp",
-      },
+      "/images/couple-hero.webp",
+      "/images/gallery-2.webp",
     ],
   },
 }

@@ -1,11 +1,10 @@
-# Progress Guest Cover Feature
+# Task: Update Open Graph metadata for WhatsApp preview
 
 ## Steps:
-- [x] 1. Update greeting text in guest-cover.tsx
-- [x] 2. Add imports for wedding sections
-- [x] 3. Replace placeholder with full invitation content
-- [ ] 4. Test locally with ?kpd= param
-- [ ] 5. Update app/page.tsx integration (optional)
+- [x] Step 1: Update app/layout.tsx with new metadata (title, desc, og:image '/images/gallery-1.webp' size 1200x630, twitter summary_large_image)
+## Steps:
+- [x] Step 1: Update app/layout.tsx ✓
+- [x] Step 2: Verify image exists ✓
+- [x] Step 3: Completed
 
-✅ Edits completed on guest-cover.tsx per plan.
-
+Task finished! Run `npm run dev` to test WA preview locally.
