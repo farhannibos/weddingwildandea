@@ -99,7 +99,7 @@ export function EventSection() {
                 
                 <div className="flex items-center justify-center gap-3">
                   <Clock className="w-5 h-5 text-gold-dark" />
-                  <span>12:00 - Selesai WIB</span>
+                  <span>09:00 - 13:00 WIB</span>
                 </div>
                 
                 <div className="flex items-start justify-center gap-3">
