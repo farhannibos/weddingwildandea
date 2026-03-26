@@ -1,9 +1,11 @@
-# WebP Image Update Task
+# Progress Guest Cover Feature
 
 ## Steps:
-- [ ] 1. Create TODO.md ✅
-- [x] 2. Edit gallery-section.tsx (update 6 .jpg → .webp paths) ✅
-- [x] 3. Edit profile-section.tsx (update couple-hero.jpg → .webp) ✅
-- [x] 4. Edit cover-section.tsx (update gallery-2.jpg → .webp) ✅
-- [x] 5. Verify with `npm run dev` and test image loading ✅
-- [x] 6. Task complete: All .jpg image paths updated to .webp in gallery, profile, and cover sections. ✅
+- [x] 1. Update greeting text in guest-cover.tsx
+- [x] 2. Add imports for wedding sections
+- [x] 3. Replace placeholder with full invitation content
+- [ ] 4. Test locally with ?kpd= param
+- [ ] 5. Update app/page.tsx integration (optional)
+
+✅ Edits completed on guest-cover.tsx per plan.
+

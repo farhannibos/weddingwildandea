@@ -136,9 +136,9 @@ export function ProfileSection() {
             </div>
             
             <h3 className="font-[var(--font-script)] text-3xl md:text-4xl text-brown-dark mb-2 gold-shimmer">
-               Wildan Ibnu Batutoh, A.Md.Kep
+               Wildan Ibnu Batutoh
             </h3>
-            <p className="text-muted-foreground text-lg mb-4">Putra dari</p>
+            <p className="text-muted-foreground text-lg mb-4">Putra Pertama dari</p>
             <p className="text-brown font-medium leading-relaxed">
               Bapak H. Hamdi<br />
               <span className="text-gold-dark text-xl">&</span><br />
@@ -178,9 +178,9 @@ export function ProfileSection() {
             
             <h3 className="font-[var(--font-script)] text-3xl md:text-4xl text-brown-dark mb-2 gold-shimmer">
              
-              Yas Shinta Deana Putri, A.Md.Kep
+              Yas Shinta Aulia Deana Putri
             </h3>
-            <p className="text-muted-foreground text-lg mb-4">Putri dari</p>
+            <p className="text-muted-foreground text-lg mb-4">Putri Pertama dari</p>
             <p className="text-brown font-medium leading-relaxed">
               Bapak Yusron Agus Santoso<br />
               <span className="text-gold-dark text-xl">&</span><br />
