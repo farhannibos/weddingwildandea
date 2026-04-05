@@ -1,10 +1,1 @@
-# Task: Update Open Graph metadata for WhatsApp preview
-
-## Steps:
-- [x] Step 1: Update app/layout.tsx with new metadata (title, desc, og:image '/images/gallery-1.webp' size 1200x630, twitter summary_large_image)
-## Steps:
-- [x] Step 1: Update app/layout.tsx ✓
-- [x] Step 2: Verify image exists ✓
-- [x] Step 3: Completed
-
-Task finished! Run `npm run dev` to test WA preview locally.
+# Task: Tambah Card Akad di Event Section ✅ COMPLETED\n\n## Steps:\n\n### 1. ✅ Create TODO.md\n### 2. ✅ Edit components/wedding/event-section.tsx\n   - Update maps URL ✅\n   - Change layout to grid md:grid-cols-2 ✅\n   - Update Resepsi details (time 12:00 sd selesai, new location) ✅\n   - Add identical Akad card (time 09:00 sd selesai, same date/location) ✅\n### 3. ✅ Edit components/wedding/countdown-section.tsx\n   - Update target date to 2026-04-13T09:00:00 ✅\n   - Update display text to 13 April 2026 ✅\n### 4. ✅ Update TODO.md (mark complete)\n### 5. ✅ Test & Complete\n\n**Summary:**\n- Added Akad card identical to Resepsi (same design/structure), displayed side-by-side using responsive grid.\n- Akad: Senin 13 Apr 2026, 09:00 sd selesai WIB\n- Resepsi: Senin 13 Apr 2026, 12:00 sd selesai WIB\n- Both at: Dsn. Sumberwadung, Rt.33/Rw.12, Desa Kaligondo, Kec. Genteng, Banyuwangi\n- Countdown updated to target 13 April 2026 09:00 WIB\n- Google Maps updated to new location link\n\nFiles edited:\n- components/wedding/event-section.tsx\n- components/wedding/countdown-section.tsx\n\nDate: Senin, 13 April 2026\nLocation: Dsn. Sumberwadung, Rt.33/Rw.12, Desa Kaligondo, Kec. Genteng, Banyuwangi\nMaps: https://maps.app.goo.gl/fwRqjy9T9hVGj6HK6?g_st=iw

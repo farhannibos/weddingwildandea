@@ -8,8 +8,8 @@ import { useInView } from "@/hooks/use-in-view"
 export function EventSection() {
   const { ref, isInView } = useInView({ threshold: 0.1 })
 
-  const openGoogleMaps = () => {
-    window.open("https://maps.app.goo.gl/r44RgD1Wgk5Pi2ty8", "_blank")
+const openGoogleMaps = () => {
+    window.open("https://maps.app.goo.gl/fwRqjy9T9hVGj6HK6?g_st=iw", "_blank")
   }
 
   return (
@@ -66,9 +66,55 @@ export function EventSection() {
           </div>
         </AnimatedSection>
 
-        <div className="flex justify-center">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto justify-items-center">
+          {/* Akad */}
+          <AnimatedSection animation="rotate-left" delay={200} className="w-full">
+            <Card3D className="bg-card p-8 rounded-lg shadow-lg text-center border border-gold/30 relative overflow-hidden h-full">
+              {/* Card Batik Ornament */}
+              <div className="absolute top-0 left-0 w-16 h-16">
+                <svg viewBox="0 0 50 50" className="w-full h-full text-gold/20">
+                  <path d="M0 0 L25 0 L25 25 Q12 12 0 25 Z" fill="currentColor" />
+                </svg>
+              </div>
+              <div className="absolute bottom-0 right-0 w-16 h-16 transform rotate-180">
+                <svg viewBox="0 0 50 50" className="w-full h-full text-gold/20">
+                  <path d="M0 0 L25 0 L25 25 Q12 12 0 25 Z" fill="currentColor" />
+                </svg>
+              </div>
+              
+              <div className="w-16 h-16 bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10 animate-float-3d" style={{ animationDelay: "0.5s" }}>
+                <svg viewBox="0 0 50 50" className="w-8 h-8 text-gold-dark">
+                  <circle cx="25" cy="20" r="8" fill="currentColor" />
+                  <path d="M10 45 Q25 30 40 45" stroke="currentColor" strokeWidth="3" fill="none" />
+                </svg>
+              </div>
+              
+              <h3 className="text-2xl font-semibold text-brown-dark mb-6 relative z-10">Akad</h3>
+              
+              <div className="space-y-4 text-brown relative z-10">
+                <div className="flex items-center justify-center gap-3">
+                  <Calendar className="w-5 h-5 text-gold-dark" />
+                  <span>Senin, 13 April 2026</span>
+                </div>
+                
+                <div className="flex items-center justify-center gap-3">
+                  <Clock className="w-5 h-5 text-gold-dark" />
+                  <span>09:00 sd selesai WIB</span>
+                </div>
+                
+                <div className="flex items-start justify-center gap-3">
+                  <MapPin className="w-5 h-5 text-gold-dark mt-1 flex-shrink-0" />
+                  <span className="text-left">
+                    Dsn. Sumberwadung, Rt.33/Rw.12<br />
+                    Desa Kaligondo, Kec. Genteng, Banyuwangi
+                  </span>
+                </div>
+              </div>
+            </Card3D>
+          </AnimatedSection>
+
           {/* Resepsi */}
-          <AnimatedSection animation="rotate-right" delay={400} className="w-full md:w-1/2">
+          <AnimatedSection animation="rotate-right" delay={400} className="w-full">
             <Card3D className="bg-card p-8 rounded-lg shadow-lg text-center border border-gold/30 relative overflow-hidden h-full">
               {/* Card Batik Ornament */}
               <div className="absolute top-0 left-0 w-16 h-16">
@@ -94,20 +140,19 @@ export function EventSection() {
               <div className="space-y-4 text-brown relative z-10">
                 <div className="flex items-center justify-center gap-3">
                   <Calendar className="w-5 h-5 text-gold-dark" />
-                  <span>Sabtu, 18 April 2026</span>
+                  <span>Senin, 13 April 2026</span>
                 </div>
                 
                 <div className="flex items-center justify-center gap-3">
                   <Clock className="w-5 h-5 text-gold-dark" />
-                  <span>09:00 - 13:00 WIB</span>
+                  <span>12:00 sd selesai WIB</span>
                 </div>
                 
                 <div className="flex items-start justify-center gap-3">
                   <MapPin className="w-5 h-5 text-gold-dark mt-1 flex-shrink-0" />
                   <span className="text-left">
-                    Gang Sedap Malam RT08 RW04<br />
-                    Wadung Pal Tulungrejo<br />
-                    Glenmore
+                    Dsn. Sumberwadung, Rt.33/Rw.12<br />
+                    Desa Kaligondo, Kec. Genteng, Banyuwangi
                   </span>
                 </div>
               </div>

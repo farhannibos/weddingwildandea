@@ -21,7 +21,7 @@ export function CountdownSection() {
   })
 
   useEffect(() => {
-    const weddingDate = new Date("2026-04-18T09:00:00").getTime()
+    const weddingDate = new Date("2026-04-13T09:00:00").getTime()
 
     const calculateTimeLeft = () => {
       const now = new Date().getTime()
@@ -83,7 +83,7 @@ export function CountdownSection() {
           <h2 className="font-[var(--font-script)] text-4xl md:text-5xl text-cream mb-4 gold-shimmer">
             Menuju Hari Bahagia
           </h2>
-          <p className="text-cream/80">18 April 2026</p>
+          <p className="text-cream/80">13 April 2026</p>
           
           {/* Batik Ornament Divider */}
           <div className="flex items-center justify-center gap-2 mt-4">
